@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >Ognjen Marić - Projects</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back_ios" />
+  
+  <link rel="stylesheet" href="https://OgnjenMaric.github.io/OgnjenMaric/css/main.css" />
+  <link rel="stylesheet" href="https://OgnjenMaric.github.io/OgnjenMaric/css/side-menu.css" />
+  
+  <script src="https://OgnjenMaric.github.io/OgnjenMaric/scripts/lang.js" defer></script>
+  <script src="https://OgnjenMaric.github.io/OgnjenMaric/scripts/script.js" defer></script>
+  <script src="https://OgnjenMaric.github.io/OgnjenMaric/components/mat-card.js" defer></script>
+</head>
+<body>
+  <button class="menu-btn material-symbols-outlined" onclick="toggleMenu()">menu</button>
+  <a href="/"><button style="margin-left: 50px;" class="menu-btn material-symbols-outlined" >arrow_back_ios</button></a>
+  
+  <nav class="side-menu" id="sideMenu">
+    <h3>Meni</h3>
+    <a href="/">Home</a>
+  </nav>
+
+  <h1 style="text-align: center;">Projects</h1>
+
+  <div class="card-container">
+    <mat-card class="red-border">
+      <span slot="title">Event Sharing Android App</span>
+      <span slot="subtitle">Android Development | Java | Android Studio</span>
+      <p slot="role"> <strong>Role:</strong> Mobile & Backend Developer </p>
+      <p slot="content">
+      A versatile event management platform with a modern Android client and a structured backend API.  
+      Features include RESTful endpoints with Swagger documentation, JSON-based persistence, and a Compose-based Android UI.  
+      Integrated Google Maps, user authentication, account management, and consistent theming with Jetpack Compose.  
+      Emphasizes modular architecture, scalability, and maintainability, making it ideal for both community platforms and integration into existing apps.
+      </p>
+
+      <li slot="responsibilities">Designed and developed an Android app with Jetpack Compose, Kotlin/Java, and Android SDK.</li>
+      <li slot="responsibilities">Implemented RESTful API integration using Volley and centralized request handling (ApiHandler.java, VolleySingleton).</li>
+      <li slot="responsibilities">Integrated Google Maps to allow location-based event creation and discovery.</li>
+      <li slot="responsibilities">Created reusable, themed UI components (colors, typography, layouts) to maintain design consistency.</li>
+      <li slot="responsibilities">Built backend services with Express and JSON persistence for event and user management.</li>
+      <li slot="responsibilities">Developed user authentication and profile management, ensuring a secure and personalized experience.</li>
+      <li slot="responsibilities">Followed modular architecture principles to improve maintainability and scalability.</li>
+      <li slot="responsibilities">Documented APIs with Swagger, making the backend easy to test and extend.</li>
+      <li slot="responsibilities">Tested and debugged across different Android devices and emulators to ensure smooth performance.</li>
+
+      <span slot="environment">Android Studio, Java, Jetpack Compose, Node.js / Express, JSON files</span>
+
+      <button slot="actions" onclick="window.open('https://github.com/OgnjenMaric/EventSharingApp', '_blank')">View Repository</button>
+    </mat-card>
+
+    <mat-card class="red-border">
+      <span slot="title">Learning Management System</span>
+      <span slot="subtitle">Angular | Angular Material | SCSS | REST API</span>
+      <p slot="role"> <strong>Role:</strong> Full Stack Software Engineer </p>
+      <p slot="content">
+        A collaborative university platform enabling professors, students, and administrative staff to manage courses, evaluations, and communication in one place.  
+        Features include announcements, forums, evaluation and task management, file managment, and role-based permissions for Nastavnik, Student, Sluzba and Admin.  
+        Built with Angular and Angular Material for a responsive UI, SCSS for styling, and a RESTful backend for persistence and authentication.  
+        Designed for scalability, usability, and modern educational workflows.
+      </p>
+
+      <li slot="responsibilities">Implemented role-based authentication and session management to enforce security policies.</li>
+      <li slot="responsibilities">Developed CRUD endpoints for Professor, Student, Forum, and 35 other entities, ensuring data consistency.</li>
+      <li slot="responsibilities">Designed and implemented global exception handling to standardize API error responses and improve maintainability.</li>
+      <li slot="responsibilities">Built file management functionality, including secure uploading and downloading.</li>
+      <li slot="responsibilities">Contributed to debugging and resolving HTTP and API errors.</li>
+      <li slot="responsibilities">Collaborated with the team to ensure scalable architecture and clean separation of concerns across services.</li>
+      <li slot="responsibilities">Developed multiple frontend components using Angular and Angular Material.</li>
+      <li slot="responsibilities">Implemented role-based views to differentiate functionality between students and professors.</li>
+      <li slot="responsibilities">Designed and styled reusable UI components with SCSS, ensuring responsiveness and consistent branding.</li>
+      <li slot="responsibilities">Built interactive forms with validation, error handling, and conditional rendering to improve usability.</li>
+
+      <span slot="environment">Angular, Angular Material, SCSS, HTML, CSS, Spring Boot, JPA / Hibernate, Spring Security,RESTful API, MySQL</span>
+
+      <button slot="actions" onclick="window.open('https://github.com/StrahinjaRavic/Learning-Managing-System-FrontEnd-', '_blank')">View Repository</button>
+    </mat-card>
+
+    <mat-card class="red-border">
+      <span slot="title">Learning Management System</span>
+      <span slot="subtitle">Android Development | Java | Android Studio | Spring Boot</span>
+      <p slot="role"> <strong>Role:</strong> Mobile & Backend Developer </p>
+      <p slot="content">
+        An interactive mobile app that helps users explore and navigate points of interest in real time.
+        Features include user accounts, location tracking, adding and managing custom locations, and viewing detailed information for each site.
+        Built with Java and Android SDK, Google Maps API for mapping, and XML for responsive layouts.
+        Designed for usability, engaging navigation, and a personalized tourist experience.
+      </p>
+
+      <li slot="responsibilities">Designed and implemented the Android application using Java and Android SDK.</li>
+      <li slot="responsibilities">Integrated Google Maps API to display locations and user navigation in real-time.</li>
+      <li slot="responsibilities">Added custom markers and info windows for points of interest to enhance user experience.</li>
+      <li slot="responsibilities">Implemented location tracking to show the user's current position on the map.</li>
+      <li slot="responsibilities">Developed user account functionality allowing users to register, log in, and manage profiles.</li>
+      <li slot="responsibilities">Enabled user-generated content, allowing users to add, edit, and manage their own locations on the map.</li>
+      <li slot="responsibilities">Developed a responsive and intuitive UI following Material Design principles.</li>
+      <li slot="responsibilities">Tested and debugged the app across multiple devices and screen sizes.</li>
+      <li slot="responsibilities">Ensured smooth navigation and interactive map functionality for a tourist-friendly experience.</li>
+
+      <span slot="environment">Android Studio, Java, Kotlin, XML layouts, Google Maps API, Location Services, Spring Boot, Gradle</span>
+
+      <button slot="actions" onclick="window.open('https://github.com/OgnjenMaric/Tour-Map', '_blank')">View Repository</button>
+    </mat-card>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="pageTitle">Ognjen Marić - Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=call" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pap..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://OgnjenMaric.github.io/OgnjenMaric/css/main.css" />
+  <link rel="stylesheet" href="https://OgnjenMaric.github.io/OgnjenMaric/css/side-menu.css" />
+  <script src="https://OgnjenMaric.github.io/OgnjenMaric/scripts/lang.js" defer></script>
+  <script src="https://OgnjenMaric.github.io/OgnjenMaric/scripts/script.js" defer></script>
+</head>
+
+<body>
+  <button class="menu-btn material-symbols-outlined" onclick="toggleMenu()">menu</button>
+
+  <!-- Side menu -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="projekti.html">Projects</a>
+  </nav>
+
+  <div class="language-switch">
+    <button onclick="setLanguage('en')"><img src="images/flag_america.png" width="20" alt="English">En</button>
+    <button onclick="setLanguage('sr')"><img src="images/flag_serbia.png" width="20" alt="Srpski">Sr</button>
+  </div>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-pic">
+        <img src="images/v1_25.png" alt="Ognjen Marić">
+      </div>
+
+      <h1 data-translate="name">Ognjen Marić</h1>
+      <p class="subtitle" data-translate="title">Software Engineer</p>
+
+      <section>
+        <h2 data-translate="contact">Contact</h2>
+        <p>📞 +381 660 3095</p>
+        <p>✉️ <a href="mailto:ognjenmaric35@gmail.com">ognjenmaric35@gmail.com</a></p>
+        <p>💻 <a href="https://github.com/OgnjenMaric" target="_blank">github.com/OgnjenMaric</a></p>
+      </section>
+
+      <section>
+        <h2 data-translate="languages">Languages</h2>
+        <p data-translate="lang1">Serbian - Native</p>
+        <p data-translate="lang2">English - B2</p>
+      </section>
+
+      <section>
+        <h2 data-translate="skills">Skills</h2>
+        <ul>
+          <li data-translate="skill1">Team-Oriented</li>
+          <li data-translate="skill2">Adaptability</li>
+          <li data-translate="skill3">Critical Thinking</li>
+          <li data-translate="skill4">Attention to Detail</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+      <section>
+        <h2 data-translate="about">About Me</h2>
+        <p data-translate="aboutText" class="indent">
+        </p>
+      </section>
+
+      <section>
+        <h2 data-translate="education">Education</h2>
+        <div class="edu-item indent">
+          <h3 data-translate="edu1Title">Robotics Technician</h3>
+          <p class="date" data-translate="edu1Date">Sep 2018 - Jul 2022</p>
+          <p class="school" data-translate="edu1School">Mechanical school, Novi Sad</p>
+        </div>
+        <div class="edu-item indent">
+          <h3 data-translate="edu2Title">Software and Informatics Engineering</h3>
+          <p class="date" data-translate="edu2Date">Sep 2022 - Present</p>
+          <p class="school" data-translate="edu2School">Singidunum University, Novi Sad</p>
+        </div>
+      </section>
+
+      <section>
+        <h2 data-translate="techSkills">Technical Skills</h2>
+        <ul class="skills-list indent">
+          <li data-translate="skillLangs"><strong>Languages:</strong> Java, Python, JavaScript</li>
+          <li data-translate="skillMobile"><strong>Mobile Development:</strong> Android (Java)</li>
+          <li data-translate="skillWeb"><strong>Web:</strong> HTML, CSS, Angular</li>
+          <li data-translate="skillFrameworks"><strong>Frameworks:</strong> Flask, Spring Boot</li>
+          <li data-translate="skillDB"><strong>Databases:</strong> SQL, SQLite, MySQL, NoSQL</li>
+          <li data-translate="skillTesting"><strong>Testing:</strong> JUnit 5</li>
+          <li data-translate="skillTools"><strong>Tools:</strong> Android Studio, VS Code, IntelliJ IDEA, Eclipse</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-translate="projects">Projects</h2>
+        <div class="project indent">
+          <h3 data-translate="proj1Title">Event Sharing Android App</h3>
+          <p data-translate="proj1Text">
+            Developed an Android app for event sharing using Java and Android Studio...
+          </p>
+        </div>
+        <div class="project indent">
+          <h3 data-translate="proj2Title">University Management App</h3>
+          <p data-translate="proj2Text">
+            Developed a web app for managing a university using Spring Boot and MySQL...
+          </p>
+        </div>
+        <div class="project indent">
+          <h3 data-translate="proj3Title">Tour Map App</h3>
+          <p data-translate="proj3Text">
+            Developed a web app for managing a university using Spring Boot and MySQL...
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
